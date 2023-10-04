@@ -14,6 +14,7 @@ header, footer {
     margin: auto;
     background-color: #508CA4;
     border-radius: 10px 10px 0 0;
+    margin-top: 10px;
 }
 
 header img {
@@ -53,6 +54,10 @@ main h2 {
     text-align: center;
     padding: 20px;
     border-bottom: #508CA4 2px solid;
+}
+
+.activities ul{
+    list-style-type: none;
 }
 
 .activities, .card {
