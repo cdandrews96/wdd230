@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 1080px;
     margin: auto;
-    background-color: #F0F5FA;
+    background-color: #141B41;
 }
 
 header, footer {
@@ -54,6 +54,7 @@ main h2 {
     text-align: center;
     padding: 20px;
     border-bottom: #508CA4 2px solid;
+    color: white;
 }
 
 .activities ul{
