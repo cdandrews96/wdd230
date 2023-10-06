@@ -5,6 +5,7 @@ body {
     background-color: #10110E;
     width: 1280px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 header {
@@ -19,6 +20,7 @@ header h1 {
 
 img {
     width: 100%;
+    border-radius: 10px;
 }
 
 main {
