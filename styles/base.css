@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     width: 80%;
+    margin:0 auto !important;
     background-color: #141B41;
 }
 
@@ -56,6 +57,12 @@ main h2 {
     color: white;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
 .activities ul{
     list-style-type: none;
 }
@@ -79,10 +86,6 @@ main h2 {
     padding: 20px;
 }
 
-.card {
-    margin-top: 10px;
-}
-
 .card div {
     text-align: center;
 }
@@ -90,4 +93,5 @@ main h2 {
 footer {
     padding: 20px;
     color: white;
+    border-radius: 10px;
 }
