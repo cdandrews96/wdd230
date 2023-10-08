@@ -104,6 +104,11 @@ nav ul li {
     padding: 15px 15px;
 }
 
+ul.navigation {
+    padding: 0px;
+    text-align: center;
+}
+
 #menu {
     display: block;
     font-size: 2rem;
@@ -134,6 +139,13 @@ nav ul li {
 
 #menu.show::before {
     content: "X";
+}
+
+/* Wafinder Marker */
+
+.wayfinder {
+    background-color: #ac3931;
+    border-radius: 0 0 10px 10px;
 }
 
 /* Media Query for wider than mobile viewports */
