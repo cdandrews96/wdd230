@@ -76,6 +76,10 @@ main h2 {
     text-align: center;
 }
 
+.map {
+    padding: 20px 0;
+}
+
 footer {
     padding: 20px;
     color: white;
