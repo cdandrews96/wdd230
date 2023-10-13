@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #0A1128;
+}
+
+p, ul {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0A1128;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #fff;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.typography h3 {
+    font-size: 2em;
+}
+
+.color-1 {
+    background-color: #0A1128;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+}
+
+.color-2 {
+    background-color: #001F54;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+}
+
+.color-3 {
+    background-color: #034078;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+}
+
+.color-4 {
+    background-color: #5C9EAD;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+}
+
+.color-5 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+}
+
+.typography h3 {
+    margin-top: 0;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+/* Media query */
+
+/* Tablet View ****************************/
+@media only screen and (min-width: 37.5em) {
+    .colors {
+        display: flex;
+        grid-gap: 1em;
+    }
+}
+
+/* Desktop View ****************************/
+@media only screen and (min-width: 60em) {
+    .colors {
+        display: flex;
+        grid-gap: 1em;
+    }
+}
