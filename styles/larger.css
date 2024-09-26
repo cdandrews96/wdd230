@@ -1,0 +1,11 @@
+@media screen and (min-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
+    
+    .activities {
+        grid-column: 1/3;
+    }
+}
