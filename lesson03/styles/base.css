@@ -13,7 +13,7 @@ p, ul {
 
 body {
     background-color: rgba(147, 168, 173, 0.1);
-    color: #8c8c8c
+    color: #787878;
 }
 
 main {
@@ -90,7 +90,7 @@ section > h2 {
 }
 
 .color-6 {
-    background-color: #8c8c8c;
+    background-color: #787878;
     color: white;
     padding: 20px;
     border-radius: 5px;
