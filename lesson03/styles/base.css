@@ -11,8 +11,21 @@ p, ul {
     font-weight: 400;
 }
 
+body {
+    background-color: rgba(147, 168, 173, 0.1);
+}
+
 main {
-    max-width: 80%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+main section {
+    padding: 50px;
+}
+
+header > div, main {
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -22,7 +35,7 @@ header {
     margin: 0 auto;
 }
 
-header h1 {
+header h1, header p {
     color: #fff;
     text-align: center;
 }
@@ -31,9 +44,9 @@ section {
     padding: 20px 0;
 }
 
-.typography h3 {
+/* .typography h3 {
     font-size: 2em;
-}
+} */
 
 .color-1 {
     background-color: #0A1128;
@@ -72,10 +85,6 @@ section {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 3px 5px 8px grey;
-}
-
-.typography h3 {
-    margin-top: 0;
 }
 
 .no-margin {
