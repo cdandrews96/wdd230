@@ -13,10 +13,12 @@ p, ul {
 
 body {
     background-color: rgba(147, 168, 173, 0.1);
+    color: #8c8c8c
 }
 
 main {
     background-color: white;
+    border-radius: 0 0 10px 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -44,16 +46,20 @@ section {
     padding: 20px 0;
 }
 
-/* .typography h3 {
-    font-size: 2em;
-} */
+section > h2 {
+    border-bottom: rgba(147, 168, 173, 0.2) 3px solid;
+    padding-bottom: 10px;
+}
+
+.colors div {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 
 .color-1 {
     background-color: #0A1128;
     color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 3px 5px 8px grey;
 }
 
 .color-2 {
@@ -61,7 +67,6 @@ section {
     color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 3px 5px 8px grey;
 }
 
 .color-3 {
@@ -69,7 +74,6 @@ section {
     color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 3px 5px 8px grey;
 }
 
 .color-4 {
@@ -77,18 +81,32 @@ section {
     color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 3px 5px 8px grey;
 }
 
 .color-5 {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 3px 5px 8px grey;
 }
 
-.no-margin {
+.color-6 {
+    background-color: #8c8c8c;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header-values p, .p-values {
+    font-size: smaller;
+    color: #B0B0B0;
+}
+
+.no-margin-bottom {
     margin-bottom: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
 }
 
 /* Media query */
