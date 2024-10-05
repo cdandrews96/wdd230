@@ -53,6 +53,10 @@ main h2 {
     list-style-type: none;
 }
 
+.activities ul li {
+    padding: 5px 0 5px 0;
+}
+
 .activities, .card {
     border: black 2px solid;
     border-radius: 10px;
