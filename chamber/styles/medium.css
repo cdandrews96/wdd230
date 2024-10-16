@@ -1,4 +1,6 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 768px) {
+    
+    /* Ham Menu Change */
     .navigation {
         display: flex;
         flex-direction: row;
@@ -15,5 +17,11 @@
 
     #menu {
         display: none;
+    }
+
+    /* Styles */
+    .s1 div, .s2, .events, .weather {
+        max-width: 540px;
+        margin: auto;
     }
 }

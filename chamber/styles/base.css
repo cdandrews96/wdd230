@@ -22,6 +22,10 @@ header img {
     padding: 10px 0;
 }
 
+html {
+    background-color: #f3f6f6;
+}
+
 .s2, .events, .weather {
     max-width: 320px;
     margin: auto;
@@ -43,10 +47,6 @@ header img {
 
 .s2 div {
     margin: 20px 0;
-}
-
-.s2 div:first-child {
-    padding-bottom: 10px;
 }
 
 .events-card {
@@ -89,18 +89,17 @@ nav li a {
 }
 
 nav li a:link {
-    color: #fff;
+    color: #001f54;
 }
 
 nav li a:hover {
-    color: #5C9EAD;
+    color: orange;
 }
 
 /* ************** Hamburger Menu **********************
 /* Mobile View */
 
 nav {
-    background-color: black;
     border-radius: 0 0 10px 10px;
 }
 
@@ -109,7 +108,6 @@ nav ul {
     /* align-items: center; */
     /* justify-content: center; */
     list-style-type: none;
-    color: white;
     margin: 0;
     flex-direction: column;
 }
@@ -146,7 +144,6 @@ ul.navigation {
     text-align: left;
     transition: 0.5s;
     text-decoration: none;
-    color: white;
 }
 
 .navigation a:hover {
