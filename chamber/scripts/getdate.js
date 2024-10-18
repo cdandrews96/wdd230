@@ -1,0 +1,1 @@
+document.querySelector("#lastModified").textContent = `Last Updated: ${document.lastModified}`;

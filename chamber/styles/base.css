@@ -7,14 +7,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #001f54;
 }
 
-p, ul {
+h1 {
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+p, ul, a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 header img {
@@ -26,19 +31,40 @@ html {
     background-color: #f3f6f6;
 }
 
-.s2, .events, .weather {
+.s2, .events, .weather, .reviews {
     max-width: 320px;
     margin: auto;
 }
 
 .hero {
     background-image: url("../images/michael-hart-XalNOk0tgcA-unsplash.jpg");
-    padding: 50px 20px;
+    background-repeat: no-repeat;
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 20px 0 20px;
 }
 
-.hero h1, .hero p {
+.hero h1 {
     color: #fff;
+}
+
+.hero div {
     text-align: center;
+}
+
+.hero a {
+    padding: 10px 30px;
+    border: #fff solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero a:hover {
+    background-color: #5c9ead;
+    border: #5c9ead solid 2px;
+    transition: .3s;
 }
 
 .s2 {
@@ -49,7 +75,7 @@ html {
     margin: 20px 0;
 }
 
-.events-card {
+.events-card, .weather-info, .reviews div {
     padding: 20px 40px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -59,16 +85,49 @@ html {
     margin-bottom: 0;
 }
 
+.weather, .reviews {
+    padding-bottom: 60px;
+}
+
 .weather-info {
-    display: flex;
-    justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 8px;
-    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
 }
 
 .weather-info img {
     width: 50px;
+}
+
+.weather-info div:first-child {
+    grid-column: 1/2;
+}
+
+.weather-info div:nth-child(2) {
+    grid-column: 2/3;
+}
+
+.member-title {
+    text-align: center;
+}
+
+.reviews div {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #001f54;
+    color: #fff;
+    padding: 50px 35px;
+}
+
+footer div:nth-child(2) {
+    padding-bottom: 10px;
+}
+
+.absolute-footer {
+    padding-top: 10px;
+    border-top: 1px #fff solid;
 }
 
 /* ************** Menu Styles ********************** */
