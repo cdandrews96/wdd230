@@ -8,8 +8,9 @@
         padding: 200px 20px 0px 20px;
     }
 
-    .s1 div, .s2, .events, .weather, .reviews {
+    .reviews {
         max-width: 80%;
+        margin: auto;
     }
 
     main {
@@ -20,6 +21,7 @@
 
     .s2 {
         grid-column: 1/3;
+        margin-bottom: 0;
     }
 
     .member-title {

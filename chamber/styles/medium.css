@@ -24,9 +24,13 @@
     }
 
     /* Styles */
-    .s1 div, .s2, .events, .weather, .reviews, footer div {
+    .s1 div, .s2, .weather, .reviews, footer div {
         max-width: 540px;
         margin: auto;
+    }
+
+    .s2 {
+        margin-bottom: 30px;
     }
 
     footer {

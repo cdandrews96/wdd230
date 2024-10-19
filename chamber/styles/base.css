@@ -67,25 +67,35 @@ html {
     transition: .3s;
 }
 
-.s2 {
-    padding: 40px 0;
+main {
+    background-color: #5c9ead33;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 60px;
 }
 
-.s2 div {
-    margin: 20px 0;
-}
-
-.events-card, .weather-info, .reviews div {
+/* .events-card, .weather-info, .reviews div {
     padding: 20px 40px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+} */
+
+.s2, .weather, .reviews div {
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+
+.s2 {
+    margin-bottom: 20px;
 }
 
 .mb-0 {
     margin-bottom: 0;
 }
 
-.weather, .reviews {
+.reviews {
     padding-bottom: 60px;
 }
 
