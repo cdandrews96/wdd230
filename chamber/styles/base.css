@@ -4,7 +4,6 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    color: #001f54;
 }
 
 h1 {
@@ -17,9 +16,19 @@ p, ul, a {
     font-weight: 400;
 }
 
+#toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
 header {
     display: flex;
     justify-content: space-evenly;
+    background-color: #0a1128;
 }
 
 header img {
@@ -68,9 +77,10 @@ html {
 }
 
 main {
-    background-color: #5c9ead33;
+    background-color: #5c9ead0e;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-top: 60px;
+    color: #001f54;
 }
 
 /* .events-card, .weather-info, .reviews div {
@@ -158,11 +168,11 @@ nav li a {
 }
 
 nav li a:link {
-    color: #001f54;
+    color: #fff !important;
 }
 
 nav li a:hover {
-    color: orange;
+    color: #5c9ead;
 }
 
 /* ************** Hamburger Menu **********************
@@ -213,11 +223,12 @@ ul.navigation {
     text-align: left;
     transition: 0.5s;
     text-decoration: none;
+    color: #fff;
 }
 
 .navigation a:hover {
     text-decoration: underline;
-    color: #ac3931;
+    color: #5c9ead;
 }
 
 .show li {
