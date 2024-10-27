@@ -11,6 +11,11 @@ h1 {
     padding-bottom: 10px;
 }
 
+.hero h1 span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
 p, ul, a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
@@ -45,13 +50,32 @@ html {
     margin: auto;
 }
 
-.hero {
+/* .hero {
     background-image: url("../images/michael-hart-XalNOk0tgcA-unsplash.jpg");
     background-repeat: no-repeat;
     height: 320px;
     background-position: center;
     background-size: cover;
     padding: 80px 20px 0 20px;
+} */
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    background-color: #0a1128b4;
+    padding: 20px 30px 40px 30px;
+    border-radius: 8px;
 }
 
 .hero h1 {
