@@ -1,0 +1,28 @@
+h1, h2 {
+    color: white;
+}
+
+main {
+    max-width: 500px;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+input, textarea, select {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* Records Page */
+
+.record-text {
+    text-align: center;
+    padding-top: 50px
+}
