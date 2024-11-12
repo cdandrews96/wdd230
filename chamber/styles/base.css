@@ -50,7 +50,7 @@ html {
     background-color: #f3f6f6;
 }
 
-.s2, .events, .weather, .reviews {
+.s2, .events, .weather, .reviews, .calendar {
     max-width: 320px;
     margin: auto;
 }
