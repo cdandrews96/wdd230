@@ -20,6 +20,15 @@
         display: none;
     }
 
+    #toggle {
+        top: 1rem;
+    }
+
+    .overlay {
+        font-size: 14px;
+        width: 450px;
+    }
+
     /* .hero {
         padding: 130px 20px 0px 20px;
     } */
