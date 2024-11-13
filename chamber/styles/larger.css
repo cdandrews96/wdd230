@@ -44,4 +44,9 @@
     .reviews div:first-child, .reviews div:nth-child(2) {
         margin-right: 20px;
     }
+
+    /* DISCOVER STYLES */
+    .images {
+        grid-column: 2/4;
+    }
 }
