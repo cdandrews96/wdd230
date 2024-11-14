@@ -1,0 +1,45 @@
+{
+    "wardInformation": {
+        "family-name": "Andrews",
+        "moveInDate": "2019-01-08",
+        "numberOfPeople": 7,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Eric Andrews",
+                "gender": "Male",
+                "birthdate": "1966-06-13"
+            },
+            {
+                "name": "Christine Andrews",
+                "gender": "Female",
+                "birthdate": "1968-08-04"
+            },
+            {
+                "name": "Mariah Andrews",
+                "gender": "Female",
+                "birthdate": "1992-05-28"
+            },
+            {
+                "name": "Caleb Andrews",
+                "gender": "Male",
+                "birthdate": "1996-01-08"
+            },
+            {
+                "name": "Caden Andrews",
+                "gender": "Male",
+                "birthdate": "1998-02-16"
+            },
+            {
+                "name": "Nicolas Andrews",
+                "gender": "Male",
+                "birthdate": "2001-03-01"
+            },
+            {
+                "name": "Nathan Andrews",
+                "gender": "Male",
+                "birthdate": "2006-05-30"
+            }
+        ]
+    }
+}
