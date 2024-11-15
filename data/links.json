@@ -4,21 +4,83 @@
         "links": [{
             "url": "week01/holygrail.html",
             "title": "Holy Layout"
-        },{
+        },
+        {
             "url": "week01/media-query.html",
             "title": "JS Pen"
         }]
-    },{
+    },
+    {
         "lesson": "02",
         "links": [{
             "url": "/wdd230/lesson02/design-principles.html",
             "title": "Design Principles Document"
-        },{
+        },
+        {
             "url": "/wdd230/lesson02/design.html",
             "title": "Web Design Principles Activity"
-        },{
+        },
+        {
             "url": "/wdd230/lesson02/media-query.html",
             "title": "Media Query Examples"
+        }]
+    },
+    {
+        "lesson": "03",
+        "links": [{
+            "url": "lesson03/chamber-site-plan.html",
+            "title": "Chamber Site Plan"
+        },
+        {
+            "url": "lesson03/images/combinators-screenshot.jpg",
+            "title": "CSS Combinators Exercise"
+        },
+        {
+            "url": "https://codepen.io/cdandrews1917/pen/MWNywKv",
+            "title": "CSS Psuedo Elements Activity",
+        },
+        {
+            "url": "https://codepen.io/cdandrews1917/pen/PoMNqbq",
+            "title": "Hamburger Menu Activity"
+        }]
+    },
+    {
+        "lesson": "04",
+        "links": [{
+            "url": "https://codepen.io/cdandrews1917/pen/OJKRbJd",
+            "title": "CSS Pseudo-Classes"
+        }]
+    },
+    {
+        "lesson": "05",
+        "links": [{
+            "url": "lesson05/bom.html",
+            "title": "Dom Manipulation - Book of Mormon Favorite Chapters Application"
+        }]
+    },
+    {
+        "lesson": "06",
+        "links": [{
+            "url": "lesson06/images/landscape.webp",
+            "title": "WebP"
+        }]
+    },
+    {
+        "lesson": "07",
+        "links": [{
+            "url": "lesson07/lazyload.html",
+            "title": "Lazy Loading Activity"
+        },
+        {
+            "url": "lesson07/bom.html",
+            "title": "Web Storage API - localStorage"
+        }]
+    },
+    {
+        "lesson": "08",
+        "links": [{
+            "url": "form.html",
+            "title": "Form Build Group Activity"
         }]
     }]
 }
