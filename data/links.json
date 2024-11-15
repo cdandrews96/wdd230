@@ -82,5 +82,12 @@
             "url": "form.html",
             "title": "Form Build Group Activity"
         }]
+    },
+    {
+        "lesson": "09",
+        "links": [{
+            "url": "lesson09/prophets.html",
+            "title": "Latter-day Prophets Page"
+        }]
     }]
 }
