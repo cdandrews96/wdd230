@@ -16,17 +16,22 @@ const displayLinks = (weeks) => {
         const list = document.createElement('li');
         const lesson = week.lesson;
         const links = week.links;
+        counter = 1;
         list.textContent = `${lesson}: `;
         links.forEach((link) => {
             const url = link.url;
             const title = link.title;
-            const content = ""
-            const anchor = document.createElement('a');
-            anchor.setAttribute('href', url);
-            anchor.textContent = `${title}`;
-            list.appendChild(anchor)
+            list.innerHTML += `<a href=${url}>${title}</a>`
+            counter += 1;
+            if (counter <= links.length) {
+                list.innerHTML += " | "
+            }
+            // const anchor = document.createElement('a');
+            // anchor.setAttribute('href', url);
+            // anchor.textContent = `${title}`;
+            // list.appendChild(anchor)
         });
-        console.log(list)
+        // console.log(list)
         activities.appendChild(list);
     });
 }
