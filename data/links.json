@@ -1,0 +1,24 @@
+{
+    "lessons": [{
+        "lesson": "01",
+        "links": [{
+            "url": "week01/holygrail.html",
+            "title": "Holy Layout"
+        },{
+            "url": "week01/media-query.html",
+            "title": "JS Pen"
+        }]
+    },{
+        "lesson": "02",
+        "links": [{
+            "url": "/wdd230/lesson02/design-principles.html",
+            "title": "Design Principles Document"
+        },{
+            "url": "/wdd230/lesson02/design.html",
+            "title": "Web Design Principles Activity"
+        },{
+            "url": "/wdd230/lesson02/media-query.html",
+            "title": "Media Query Examples"
+        }]
+    }]
+}
