@@ -21,8 +21,8 @@ const displayMembers = (members) => {
         logo.setAttribute('src', member.image);
         logo.setAttribute('alt', `Company logo of ${member.name}`);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '60%');
-        logo.setAttribute('height', '100%');
+        logo.setAttribute('width', '300');
+        logo.setAttribute('height', 'auto');
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
         url.setAttribute('href', `${member.urls}`);

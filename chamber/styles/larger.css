@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1024px) {
     main, .hero div {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: auto;
     }
 
@@ -48,5 +48,15 @@
     /* DISCOVER STYLES */
     .images {
         grid-column: 2/4;
+    }
+
+    #cards {
+        grid-column: 1/4;
+    }
+
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
     }
 }
