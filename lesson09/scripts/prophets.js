@@ -16,7 +16,7 @@ const displayProphets = (prophets) => {
         let fullName = document.createElement('h2');
         let portrait = document.createElement('img');
 
-        fullName.textContent = `${prophet.name} {prophet.lastname}`;
+        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         portrait.setAttribute('loading', 'lazy');
