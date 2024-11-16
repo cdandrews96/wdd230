@@ -26,6 +26,7 @@ const displayMembers = (members) => {
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
         url.setAttribute('href', `${member.urls}`);
+        url.textContent = `${member.name}`;
 
         card.appendChild(logo);
         card.appendChild(address);
