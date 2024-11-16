@@ -1,0 +1,53 @@
+{
+    "members": [
+        {
+            "name": "EasyFile",
+            "address": "12760 S Park Ave #1435, Riverton, UT 84065",
+            "phone": "(801) 758-7207",
+            "urls": "https://easyfile.me/",
+            "image": "/images/EasyFile-Logo.svg"
+        },
+        {
+            "name": "Pets & Such",
+            "address": "3680 W 3500 S, West Valley City, UT 84120",
+            "phone": "(801) 966-8605",
+            "urls": "https://pets-and-such.com/",
+            "image": "/images/pets-and-such-logo.png"
+        },
+        {
+            "name": "GameStop",
+            "address": "6949 Park Centre Dr, Salt Lake City, UT 84121",
+            "phone": "(801) 561-8360",
+            "urls": "https://www.gamestop.com/store/us/ut/salt-lake-city/2736/park-center-gamestop?utm_source=gmblisting&utm_medium=organic",
+            "image": "/images/png-transparent-gamestop-logo-landscape.png"
+        },
+        {
+            "name": "Aspire iTECH Solutions",
+            "address": "11673 S Auburn Fields Way, Draper, UT 84020",
+            "phone": "(801) 537-6520",
+            "urls": "https://aspireitech.com/",
+            "image": "/images/aspire_logo.png"
+        },
+        {
+            "name": "Enjoy Chinese Cuisine",
+            "address": "2629 W 7800 S, West Jordan, UT 84088",
+            "phone": "(801) 561-7382",
+            "urls": "https://enjoychinesecuisine.com/",
+            "image": "/images/ecc.webp"
+        },
+        {
+            "name": "Raspberry Creek Fabrics and Custom Textile Printing",
+            "address": "8695 Highland Dr., Sandy, UT 84093",
+            "phone": "(801) 251-6175",
+            "urls": "https://raspberrycreekfabrics.com/",
+            "image": "/images/raspberrycreekfabric.webp"
+        },
+        {
+            "name": "FranklinCovey Shipping & Receiving",
+            "address": "21501 Parkway Blvd, West Valley City, UT 84119",
+            "phone": "(801) 817-1776",
+            "urls": "https://www.franklincovey.com/",
+            "image": "/images/FC_logo.svg"
+        }
+    ]
+}
