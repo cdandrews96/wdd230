@@ -308,3 +308,17 @@ figure {
     margin: 10px;
     border-radius: 10px;
 }
+
+.selection {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bed;
+	text-align: center;
+    border-radius: 10px;
+}
+
+.selection button {
+	padding: 1rem;
+	font-weight: 700;
+}
