@@ -66,19 +66,3 @@ section {
 #loom-companion-mv3 {
     display: none;
 }
-
-/* Tablet View ****************************/
-@media only screen and (min-width: 37.5em) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-/* Desktop View ****************************/
-@media only screen and (min-width: 60em) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
