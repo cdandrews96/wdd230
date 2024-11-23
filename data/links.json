@@ -89,5 +89,12 @@
             "url": "lesson09/prophets.html",
             "title": "Latter-day Prophets Page"
         }]
+    },
+    {
+        "lesson": "10",
+        "links": [{
+            "url": "lesson10/weather.html",
+            "title": "Consuming a Weather API"
+        }]
     }]
 }
