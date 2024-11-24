@@ -147,10 +147,19 @@ main {
     padding-bottom: 60px;
 }
 
+.weather h2 {
+    text-align: center;
+}
+
+.weather-info h3 {
+    grid-column: 1/3;
+}
+
 .weather-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+    text-align: center;
 }
 
 .weather-info img {
@@ -158,11 +167,12 @@ main {
 }
 
 .weather-info div:first-child {
-    grid-column: 1/2;
+    grid-column: 1/3;
 }
 
-.weather-info div:nth-child(2) {
-    grid-column: 2/3;
+.weath-forecast {
+    grid-column: 1/3;
+    display: flex;
 }
 
 .member-title {
