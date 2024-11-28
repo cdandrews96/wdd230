@@ -183,6 +183,10 @@ ul.navigation {
     color: black;
 }
 
+iframe {
+    width: 100%;
+}
+
 /* Media Query for wider than mobile viewports */
 
 @media only screen and (min-width: 40em) {
