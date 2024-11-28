@@ -5,7 +5,7 @@
             "address": "12760 S Park Ave #1435, Riverton, UT 84065",
             "phone": "(801) 758-7207",
             "urls": "https://easyfile.me/",
-            "image": "https://cdandrews96.github.io/wdd230/chamber/images/EasyFile-Logo.svg"
+            "image": "https://cdandrews96.github.io/wdd230/chamber/images/easy-file-logo.svg"
         },
         {
             "name": "Pets & Such",
@@ -47,7 +47,7 @@
             "address": "21501 Parkway Blvd, West Valley City, UT 84119",
             "phone": "(801) 817-1776",
             "urls": "https://www.franklincovey.com/",
-            "image": "https://cdandrews96.github.io/wdd230/chamber/images/FC_logo.svg"
+            "image": "https://cdandrews96.github.io/wdd230/chamber/images/fc-logo.svg"
         }
     ]
 }
