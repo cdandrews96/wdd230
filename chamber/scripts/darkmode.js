@@ -1,7 +1,7 @@
 const toggleButton = document.querySelector("#toggle");
 const main = document.querySelector("main");
 const html = document.querySelector("html");
-const boxes = document.querySelectorAll("#light");
+const boxes = document.querySelectorAll(".light");
 
 toggleButton.addEventListener("click", () => {
     if (toggleButton.textContent.includes("🌙")
