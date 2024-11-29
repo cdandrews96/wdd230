@@ -29,6 +29,10 @@ h1 {
     justify-content: center;
 }
 
+.marker {
+    border-bottom: 2px solid #fff !important;
+}
+
 .hero {
     position: relative;
 }
