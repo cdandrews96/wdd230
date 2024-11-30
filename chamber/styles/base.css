@@ -474,7 +474,7 @@ tr td:nth-child(2) {
  /******************* THANK YOU PAGE STYLES *******************/
 
  .message {
-    margin: 180px 0;
+    margin: 180px 20px;
     grid-column: 2/3;
     text-align: center;
  }
