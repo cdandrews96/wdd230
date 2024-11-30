@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Salt Lake Valley Chamber of Commerce">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://cdandrews96.github.io/wdd230/images/west-jordan.jpeg">
+    <meta property="og:url" content="https://cdandrews96.github.io/wdd230/chamber/">
+    <meta name="author" content="Caleb Andrews">
+    <meta name="description" content="Salt Lake Valley chamber of commerce information about the area">
+    <title>Salt Lake Valley Chamber of Commerce</title>
+    <link rel="icon" href="images/saltlakevalley-commerce-favicon.svg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <p><strong>Reminder:</strong> Make sure to attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.</p>
+            </div>
+            <button class="banner-close" type="button">❌</button>
+        </div>
+    </div>
+    <header>
+        <div id="toggle">
+            🌙
+        </div>
+        <div>
+            <img src="../chamber/images/salt-lake-valley-logo-white-02-02.svg" alt="Salt Lake Valley Chamber Logo">
+        </div>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a class="marker" href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-image">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="images/salt-lake-capital-building-large.jpg">
+                <source media="(min-width: 768px)" srcset="images/salt-lake-capital-building-medium.jpg">
+                <img src="images/salt-lake-capital-building-small.jpg" alt="Arial view of Salt Lake City capitol building">
+            </picture>
+        </div>
+        <div class="overlay">
+            <h1>Salt Lake Valley <br><span>Chamber of Commerce</span></h1>
+            <a href="#">Find Out More</a>
+        </div>
+    </section>
+    <main>
+        
+    </main>
+    <footer>
+        <div>
+            <img src="images/salt-lake-valley-logo-white-02-02.svg" alt="Salt Lake Valley Chamber Logo">
+        </div>
+        <div>
+            <p>📨 info@saltlakechamber.org</p>
+            <p>📞 (555) 555-8892</p>
+        </div>
+        <div class="absolute-footer">
+            <p>&copy; <span id="currentYear"></span> Salt Lake Valley Chamber</p>
+            <p>Caleb Andrews</p>
+            <p>WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/hammenu.js"></script>
+    <script src="scripts/getdate.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+</body>
+</html>
