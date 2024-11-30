@@ -470,3 +470,30 @@ tr td:nth-child(2) {
     border-bottom: #0a1128 solid 2px;
     border-right: #0a1128 solid 2px;
  }
+
+ /******************* THANK YOU PAGE STYLES *******************/
+
+ .message {
+    margin: 180px 0;
+    grid-column: 2/3;
+    text-align: center;
+ }
+
+ .message h2 {
+    font-size: 2em;
+ }
+
+ button {
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ .thank-button {
+    padding: 15px 25px;
+    border: #0a1128 solid 2px;
+    border-radius: 10px;
+ }
+
+ .thank-button:hover {
+    background-color: #0a1128;
+    color: white;
+ }
