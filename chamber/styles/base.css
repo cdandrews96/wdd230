@@ -354,3 +354,69 @@ figure {
 	padding: 1rem;
 	font-weight: 700;
 }
+
+/******************* JOIN PAGE STYLES *******************/
+
+.join {
+    grid-column: 1/4;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 40px;
+}
+
+.join-title, .join-table {
+    grid-column: 1/2;
+}
+
+.join-title {
+    text-align: center;
+}
+
+.memb-levels {
+    grid-column: 2/3;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.join-table {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+form {
+    font-family: 'Quicksand', sans-serif;
+    border: #0a1128 solid 2px;
+    border-radius: 10px;
+}
+
+form label {
+    padding: 10px 0;
+}
+
+form input, textarea {
+    padding: 10px;
+    border: #0a1128 solid 2px;
+    border-radius: 5px;
+}
+
+.m-level input{
+    padding: 10px 0;
+}
+
+.join-table input[type="submit"] {
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #001f54;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #001f54;
+}
+
+.join-table input[type="submit"]:hover {
+    background-color: #ebf1f1;
+    color: #0a1128;
+    border: 2px solid #0a1128;
+    transition: .2s;
+}

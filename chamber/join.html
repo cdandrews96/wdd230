@@ -56,24 +56,30 @@
         </div>
     </section>
     <main>
-        <h2>Join us today!</h2>
-        <form action="thankyou.html" method="GET">
+        <div class="join">
+        <form action="thankyou.html" method="GET" class="join-table">
+            <h2 class="join-title">Join us today!</h2>
             <label for="fname">First</label><input type="text" id="fname" name="fname" required>
             <label for="lname">Last name</label><input type="text" id="lname" name="lname" required>
             <label for="position">Your position</label><input type="text" id="position" name="position" required pattern="[A-Za-z- ]{7,}">
             <label for="email">Email address</label><input type="email" id="email" name="email" required placeholder="johndoe@email.com">
             <label for="phone">Mobile phone number</label><input type="tel" id="phone" name="phone" required>
             <label for="organization">Business/Organization name</label><input type="text" name="organization" id="organization" required>
-            <div><h3>Select a membership level</h3></div>
-            <input type="radio" id="np" name="non_profit" value="NP Membership (no fee)"><label for="np">NP Membership (no fee)</label><br>
-            <input type="radio" id="bronze" name="bronze" value="Bronze Membership"><label for="np">Bronze Membership</label><br>
-            <input type="radio" id="silver" name="silver" value="Silver Membership"><label for="np">Silver Membership</label><br>
-            <input type="radio" id="gold" name="gold" value="Gold Membership"><label for="np">Gold Membership</label>
-            <label for="description">Your business/organization's description</label><textarea name="description" id="description" rows="4"></textarea>
+            <div class="m-level"><h3>Select a membership level</h3>
+                <input type="radio" id="np" name="non_profit" value="NP Membership (no fee)">
+                <label for="np">NP Membership (no fee)</label><br>
+                <input type="radio" id="bronze" name="bronze" value="Bronze Membership">
+                <label for="np">Bronze Membership</label><br>
+                <input type="radio" id="silver" name="silver" value="Silver Membership">
+                <label for="np">Silver Membership</label><br>
+                <input type="radio" id="gold" name="gold" value="Gold Membership">
+                <label for="np">Gold Membership</label>
+            </div>
+            <label for="description"><strong>Your business/organization's description</strong></label><textarea name="description" id="description" rows="4"></textarea>
             <input type="submit" value="Join Us">
         </form>
-        <aside>
-            <table>
+        <aside class="memb-levels">
+            <table class="membership-levels">
                 <thead>
                     <tr>
                         <th>Membership level</th>
@@ -128,6 +134,7 @@
                 </tbody>
             </table>
         </aside>
+    </div>
     </main>
     <footer>
         <div>
