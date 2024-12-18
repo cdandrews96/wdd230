@@ -11,7 +11,7 @@
 
     .navigation a {
         text-align: center;
-        color: #141204;
+        color: #fff;
     }
 
     #menu {
@@ -138,7 +138,7 @@
     }
 
     .footer-logo {
-        width: 100%;
+        width: 80%;
     }
 
     .absolute-footer {
@@ -157,4 +157,23 @@
     #rentalCards section {
         margin: 30px 0;
     }
+
+    .reserve {
+        grid-column: 1/6;
+        padding: 40px;
+    }
+
+    .container aside {
+        grid-column: 1/6;
+        margin-top: 90px;
+        padding: 40px;
+    }
+
+    .large-container {
+        grid-column: 1/5;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1em;
+    }
+
 }

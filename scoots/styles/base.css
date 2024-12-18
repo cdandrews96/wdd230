@@ -15,18 +15,26 @@ p, ul, a {
 header {
     display: flex;
     justify-content: space-around;
-    background-color: white;
+    background-color: #3a302f;
 }
 
 header img {
-    width: 80%;
+    width: 20%;
     margin: 10px 0;
+}
+
+.wayfinder {
+    border-bottom: #fff solid 2px;
+}
+
+nav {
+    margin-top: 20px;
 }
 
 /* ************** Hamburger Menu ********************** */
 
-nav {
-    background-color: white;
+nav ul {
+    color: white !important;
 }
 
 nav ul {
@@ -36,11 +44,11 @@ nav ul {
     list-style-type: none;
     margin: 0;
     flex-direction: column;
-    color: #141204;
+    color: #fff !important;
 }
 
 nav ul li {
-    padding: 15px 15px;
+    padding: 0px 5px;
 }
 
 ul.navigation {
@@ -201,7 +209,7 @@ ul.navigation {
 
 footer {
     color: white;
-    background-color: #141204;
+    background-color: #3a302f;
     padding: 60px 0;
 }
 
@@ -214,8 +222,49 @@ footer {
 }
 
 /* RENTALS STYLES */
-#rentalCards section {
+#rentalCards section, {
     padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 8px;
+}
+
+.reserve {
+    background-color: #DDCBAC;
+    padding: 20px;
+    margin: 90px 0;
+    border-radius: 8px;
+}
+
+.reserve form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Figtree", sans-serif;
+}
+
+.reserve form label {
+    padding: 10px 0;
+}
+
+.reserve form input, textarea {
+    padding: 10px;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+.reserve input[type="submit"] {
+    background-color: #DD9A27;
+    border: 2px solid #DD9A27;
+    border-radius: 8px;
+    padding: 20px 0;
+}
+
+.reserve input[type="submit"]:hover {
+    background-color: transparent;
+    transition: .2s;
+}
+
+.large-container aside ul {
+    padding-left: 20px;
 }

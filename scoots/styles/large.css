@@ -23,4 +23,12 @@
     #rentalCards {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .reserve {
+        grid-column: 2/3;
+    }
+
+    .container aside {
+        grid-column: 1/2;
+    }
 }
