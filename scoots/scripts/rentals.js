@@ -45,6 +45,6 @@ const displayRentals = (rentals) => {
         card.appendChild(halfW);
         card.appendChild(fullW);
 
-        card.appendChild(card);
+        cards.appendChild(card);
     });
 }
