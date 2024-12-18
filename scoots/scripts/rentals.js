@@ -24,16 +24,16 @@ const displayRentals = (rentals) => {
         let fullW = document.createElement('p');
 
         image.setAttribute('src', rental.image);
-        image.setAttribute('alt', `${rental.rental-type}`);
+        image.setAttribute('alt', `${rental.rentaltype}`);
         image.setAttribute('loading', 'lazy');
-        type.textContent = `${rental.rental-type}`;
+        type.textContent = `${rental.rentaltype}`;
         max.textContent = `Max persons: ${rental.max}`;
         reservation.textContent = `Reservation:`;
-        halfR.textContent = `Half Day - ${rental.half-r}`;
-        fullR.textContent = `Full Day - ${rental.full-r}`;
+        halfR.textContent = `Half Day - ${rental.halfr}`;
+        fullR.textContent = `Full Day - ${rental.fullr}`;
         walkIn.textContent = `Walk-In:`;
-        halfW.textContent = `Half Day - ${rental.half-w}`;
-        fullW.textContent = `Full Day - ${rental.full-w}`;
+        halfW.textContent = `Half Day - ${rental.halfw}`;
+        fullW.textContent = `Full Day - ${rental.fullw}`;
 
         card.appendChild(image);
         card.appendChild(type);
@@ -46,5 +46,5 @@ const displayRentals = (rentals) => {
         card.appendChild(fullW);
 
         card.appendChild(card);
-    })
+    });
 }
