@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1024px) {
+    .overlay {
+        width: 500px;
+    }
+    
+    h1 {
+        font-size: 3em !important;
+    }
+
+    .container, .footer-container {
+        max-width: 1000px;
+    }
+
+    .main-icon {
+        width: 80% !important;
+        padding-left: 50px;
+    }
+
+    .weath-container div:nth-child(2) {
+        padding-right: 150px;
+    }
+}

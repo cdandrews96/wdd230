@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Scoots | Motor Scooter Company">
     <meta property="og:type" content="Website">
-    <meta property="og:image" content="#">
-    <meta property="og:url" content="#">
+    <meta property="og:image" content="https://cdandrews96.github.io/wdd230/scoots/images/scooter-on-a-rocky-beach.jpg">
+    <meta property="og:url" content="https://cdandrews96.github.io/wdd230/scoots/index.html">
     <meta name="author" content="Caleb Andrews">
     <meta name="description" content="Scoots landing page, learn how to rent your scooter today!">
     <title>Scoots | Motor Scooter Company</title>
@@ -18,69 +18,107 @@
 </head>
 <body>
     <header>
-        <img src="" alt="#">
+        <div>
+            <img src="images/salt-lake-valley-logo-01-01.svg" alt="#">
+        </div>
+        <a id="menu" href="#"></a>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Rentals</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="navigation">
+                <li class="wayfinder"><a href="#">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h1>Enjoy the Island the Scoots Way</h1>
-            <a href="#">Scoot Today</a>
-        </section>
-        <section>
-            <div>
-                <img src="#" alt="">
+            <section class="hero">
+                <div class="hero-image">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/scooter-on-beach-large.jpg">
+                        <source media="(min-width: 768px)" srcset="images/scooter-on-beach-medium.jpg">
+                        <img src="images/scooter-on-beach-small.jpg" alt="Man on a scooter at the beach">
+                    </picture>
+                </div>
+                <div class="overlay">
+                    <h1>Enjoy the Island <br>the Scoots Way</h1>
+                    <a class="button-main" href="#">Scoot Today</a>
+                </div>
+            </section>
+            <div class="container">
+                <section class="scooters">
+                    <div class="content-left">
+                        <h2>Scooters</h2>
+                        <p>Renting a scooter offers a quick, convenient, and eco-friendly way to navigate through city streets or explore new areas. Perfect for short trips, it provides a flexible solution to avoid traffic and save time while enjoying the freedom of the open road. With easy rental processes through mobile apps and accessible pick-up locations, scooters are an ideal choice for both locals and tourists looking for a fun and efficient way to get around.</p>
+                    </div>
+                    <div class="img-right fill">
+                        <img src="images/scooter-on-a-rocky-beach.jpg" alt="">
+                    </div>
+                </section>
+                <section class="atv-mobile">
+                    <div>
+                        <h2>ATVs</h2>
+                        <p>Renting an ATV is an exciting way to explore off-road trails and rugged landscapes, offering an adrenaline-pumping adventure. Whether you're navigating through dirt paths, forests, or beaches, ATVs provide the perfect vehicle for tackling challenging terrains. With flexible rental options and easy access to adventure-ready vehicles, renting an ATV is a great way to experience the thrill of off-roading without owning one.</p>
+                    </div>
+                    <div>
+                        <img src="images/scooter-on-a-rocky-beach.jpg" alt="">
+                    </div>
+                </section>
+                <section class="atv">
+                    <div class="img-left fill">
+                        <img src="images/scooter-on-a-rocky-beach.jpg" alt="">
+                    </div>
+                    <div class="content-right">
+                        <h2>ATVs</h2>
+                        <p>Renting an ATV is an exciting way to explore off-road trails and rugged landscapes, offering an adrenaline-pumping adventure. Whether you're navigating through dirt paths, forests, or beaches, ATVs provide the perfect vehicle for tackling challenging terrains. With flexible rental options and easy access to adventure-ready vehicles, renting an ATV is a great way to experience the thrill of off-roading without owning one.</p>
+                    </div>
+                </section>
+                <section class="jeeps">
+                    <div class="content-left">
+                        <h2>Jeeps</h2>
+                        <p>Renting a jeep is the perfect way to tackle both paved roads and off-road trails with confidence and style. Whether you're heading out on a scenic road trip, exploring rugged terrain, or just need extra space for a group, jeeps provide versatility and durability. With rental options available in many destinations, it's easy to find the right vehicle for your adventure and enjoy the freedom to explore at your own pace.</p>
+                    </div>
+                    <div class="img-right fill">
+                        <img src="images/scooter-on-a-rocky-beach.jpg" alt="">
+                    </div>
+                </section>
+                <section class="weather">
+                    <div class="weath-container">
+                        <div>
+                            <img class="main-icon" src="images/sunny-icon.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="current-temp">33 F</h3>
+                            <p>20% humidity</p>
+                        </div>
+                        <div>
+                            <h4 class="tomorrow-title">Tomorrow</h4>
+                            <img class="tomorrow-icon" src="images/sunny-icon-white.png" alt="">
+                            <h4 class="tomorrow-temp">42 F</h4>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div>
-                <h2>Scooters</h2>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Eget elit vestibulum nunc non magnis blandit suscipit! Sed tu rpis elit ultricies ante hac tortor. Augue turpis nulla quam netus purus ligula aenean. Hac orci dignissim felis rhoncus auctor, suscipit aliquam at. Magna accumsan porta hac maecenas quisque bibendum finibus massa amet. Magnis eros habitasse praesent quisque dictum; torquent non ultrices.</p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2>ATVs</h2>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Eget elit vestibulum nunc non magnis blandit suscipit! Sed tu rpis elit ultricies ante hac tortor. Augue turpis nulla quam netus purus ligula aenean. Hac orci dignissim felis rhoncus auctor, suscipit aliquam at. Magna accumsan porta hac maecenas quisque bibendum finibus massa amet. Magnis eros habitasse praesent quisque dictum; torquent non ultrices.</p>
-            </div>
-            <div>
-                <img src="#" alt="">
-            </div>
-        </section>
-        <section>
-            <div>
-                <img src="#" alt="">
-            </div>
-            <div>
-                <h2>Jeeps</h2>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Eget elit vestibulum nunc non magnis blandit suscipit! Sed tu rpis elit ultricies ante hac tortor. Augue turpis nulla quam netus purus ligula aenean. Hac orci dignissim felis rhoncus auctor, suscipit aliquam at. Magna accumsan porta hac maecenas quisque bibendum finibus massa amet. Magnis eros habitasse praesent quisque dictum; torquent non ultrices.</p>
-            </div>
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <div>
-                <img src="#" alt="">
-                <h3>33 F</h3>
-                <p>20% humidity</p>
-            </div>
-            <div>
-                <img src="#" alt="">
-                <h4>42 F</h4>
-            </div>
-        </section>
     </main>
     <footer>
-        <img src="#" alt="Logo">
-        <div>
-            <h3>Contact</h3>
-            <p>(801) 555-5555</p>
-            <p>email@email.com</p>
-            <a href="#"><img src="#" alt="social icon"></a>
+        <div class="footer-container">
+            <div>
+                <img class="footer-logo" src="images/salt-lake-valley-logo-01-01.svg" alt="Logo">
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>(801) 555-5555</p>
+                <p>email@email.com</p>
+            </div>
+            <div class="socials">
+                <a href="#"><img src="images/facebook-logo-circle.png" alt="Facebook logo"></a>
+                <a href="#"><img src="images/instagram-new.png" alt="Instagram logo"></a>
+            </div>
+            <div class="absolute-footer">
+                <p>Scoots Copyright &#169; <span id="current-year"></span></p>
+            </div>
         </div>
     </footer>
+    <script src="scripts/hammenu.js"></script>
 </body>
 </html>

@@ -1,0 +1,148 @@
+@media only screen and (min-width: 768px) {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+        color: #141204;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #toggle {
+        top: 1rem;
+    }
+
+    /* .overlay h1 {
+        font-size: 2em;
+    } */
+
+    /* Medium Styles */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    .scooters, .atv, .jeeps {
+        grid-column: 1/5;
+        display: flex;
+        align-items: center;
+    }
+
+    .scooters, .atv, .jeeps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .atv {
+        visibility: visible;
+        position: relative;
+    }
+
+    .content-left {
+        padding-right: 40px !important;
+        grid-column: 1/2;
+    }
+
+    .content-right {
+        padding-left: 40px !important;
+        grid-column: 2/3;
+    }
+
+    .img-right {
+        grid-column: 2/3;
+    }
+
+    .img-left {
+        grid-column: 1/2;
+    }
+
+    .atv-mobile {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .weather {
+        grid-column: 1/5;
+        margin: 50px 0 !important;
+    }
+
+    .weath-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 100%;
+    }
+    
+    .fill img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .weath-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .weath-container div:nth-child(2) {
+        padding-right: 50px;
+    }
+
+    .weath-container div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .tomorrow-temp {
+        text-align: center !important;
+        margin: 0;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        max-width: 600px;
+    }
+
+    footer div:first-child {
+        grid-column: 1/2;
+    }
+
+    footer div:nth-child(2), .socials {
+        grid-column: 2/3;
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .absolute-footer {
+        grid-column: 1/3;
+        text-align: center;
+    }
+}
