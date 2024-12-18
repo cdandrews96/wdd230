@@ -19,4 +19,8 @@
     .weath-container div:nth-child(2) {
         padding-right: 150px;
     }
+
+    #rentalCards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
