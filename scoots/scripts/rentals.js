@@ -34,5 +34,17 @@ const displayRentals = (rentals) => {
         walkIn.textContent = `Walk-In:`;
         halfW.textContent = `Half Day - ${rental.half-w}`;
         fullW.textContent = `Full Day - ${rental.full-w}`;
+
+        card.appendChild(image);
+        card.appendChild(type);
+        card.appendChild(max);
+        card.appendChild(reservation);
+        card.appendChild(halfR);
+        card.appendChild(fullR);
+        card.appendChild(walkIn);
+        card.appendChild(halfW);
+        card.appendChild(fullW);
+
+        card.appendChild(card);
     })
 }
