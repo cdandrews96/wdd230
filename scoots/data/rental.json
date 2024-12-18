@@ -1,6 +1,7 @@
 {
     "rentals": [
         {
+            "image": "https://cdandrews96.github.io/wdd230/scoots/images/metro-scooter.jpg",
             "rental-type": "Honda Metro Scooter",
             "max": "1",
             "half-r": "$20",
@@ -9,6 +10,7 @@
             "full-w": "$35"
         },
         {
+            "image": "https://cdandrews96.github.io/wdd230/scoots/images/honda-dio.webp",
             "rental-type": "Honda Dio Scooter",
             "max": "2",
             "half-r": "$30",
@@ -17,6 +19,7 @@
             "full-w": "$45"
         },
         {
+            "image": "https://cdandrews96.github.io/wdd230/scoots/images/honda-pcx150.webp",
             "rental-type": "Honda PCX150 Scooter",
             "max": "2",
             "half-r": "$40",
@@ -25,6 +28,7 @@
             "full-w": "$55"
         },
         {
+            "image": "https://cdandrews96.github.io/wdd230/scoots/images/honda-pioneer-atv.jpg",
             "rental-type": "Honda Pioneer ATV",
             "max": "4",
             "half-r": "$50",
@@ -33,6 +37,7 @@
             "full-w": "$80"
         },
         {
+            "image": "https://cdandrews96.github.io/wdd230/scoots/images/jeep-wrangler.webp",
             "rental-type": "Jeep Wrangler - 4 door with a/c",
             "max": "5",
             "half-r": "$70",
@@ -41,6 +46,7 @@
             "full-w": "$125"
         },
         {
+            "image": "https://cdandrews96.github.io/wdd230/scoots/images/jeep-wrangler-2door.webp",
             "rental-type": "Jeep Wrangler - 2 door",
             "max": "4",
             "half-r": "$60",
