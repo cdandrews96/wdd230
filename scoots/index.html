@@ -17,6 +17,14 @@
     <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <p><strong>Todays High Temperature:</strong> <span id="tempHigh"></span>F&deg;</p>
+            </div>
+            <button class="banner-close" type="button">❌</button>
+        </div>
+    </div>
     <header>
         <div>
             <img src="images/scoots-logo-final.jpg" alt="Scoots Logo">
@@ -85,16 +93,16 @@
                 <section class="weather">
                     <div class="weath-container">
                         <div>
-                            <img class="main-icon" src="images/sunny-icon.png" alt="">
+                            <img class="main-icon" id="weathIcon" src="" alt="">
                         </div>
                         <div>
-                            <h3 class="current-temp">33 F</h3>
-                            <p>20% humidity</p>
+                            <h3 class="current-temp" id="currentTemp"></h3>
+                            <p id="humidity"></p>
                         </div>
                         <div>
                             <h4 class="tomorrow-title">Tomorrow</h4>
-                            <img class="tomorrow-icon" src="images/sunny-icon-white.png" alt="">
-                            <h4 class="tomorrow-temp">42 F</h4>
+                            <img class="tomorrow-icon" id="tomorrowIcon" src="" alt="">
+                            <h4 class="tomorrow-temp" id="tomorrowTemp"></h4>
                         </div>
                     </div>
                 </section>
@@ -120,5 +128,6 @@
         </div>
     </footer>
     <script src="scripts/hammenu.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

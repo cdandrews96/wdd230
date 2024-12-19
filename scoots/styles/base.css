@@ -290,3 +290,14 @@ textarea {
 .contact-info {
     padding-top: 30px;
 }
+
+/* BANNER STYLES */
+.banner-text {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+.banner-text strong {
+    color: red;
+}
