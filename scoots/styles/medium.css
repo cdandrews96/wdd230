@@ -76,15 +76,15 @@
     }
 
     .weather {
-        grid-column: 1/5;
+        grid-column: 2/4;
         margin: 50px 0 !important;
     }
 
-    .weath-container {
+    /* .weath-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1em;
-    }
+    } */
 
     .fill {
         display: flex;
@@ -99,26 +99,13 @@
         height: 100%;
     }
 
-    .weath-container {
-        display: flex;
-        align-items: center;
-    }
-
-    .weath-container div:nth-child(2) {
-        padding-right: 50px;
-    }
-
-    .weath-container div:nth-child(3) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-    }
-
     .tomorrow-temp {
         text-align: center !important;
         margin: 0;
+    }
+
+    .weath-container div:nth-child(3) {
+        padding: 30px;
     }
 
     .footer-container {
