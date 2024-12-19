@@ -222,7 +222,7 @@ footer {
 }
 
 /* RENTALS STYLES */
-#rentalCards section, {
+#rentalCards section, .contact {
     padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 8px;
@@ -235,13 +235,13 @@ footer {
     border-radius: 8px;
 }
 
-.reserve form {
+.reserve form, .contact form {
     display: flex;
     flex-direction: column;
     font-family: "Figtree", sans-serif;
 }
 
-.reserve form label {
+.reserve form label, .contact form label {
     padding: 10px 0;
 }
 
@@ -265,6 +265,28 @@ textarea {
     transition: .2s;
 }
 
+.contact input[type="submit"] {
+    background-color: #DD9A27;
+    border: 2px solid #DD9A27;
+    border-radius: 8px;
+    padding: 20px 0;
+    color: white;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: transparent;
+    transition: .2s;
+    color: #000;
+}
+
 .large-container aside ul {
     padding-left: 20px;
+}
+
+.contact-container {
+    margin: 90px 0;
+}
+
+.contact-info {
+    padding-top: 30px;
 }

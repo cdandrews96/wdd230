@@ -176,4 +176,21 @@
         grid-gap: 1em;
     }
 
+    .contact-container {
+        grid-column: 1/5;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .contact {
+        grid-column: 1/2;
+    }
+
+    .contact-info {
+        padding-left: 20px;
+        padding-top: 0px;
+        grid-column: 2/3;
+    }
+
 }
