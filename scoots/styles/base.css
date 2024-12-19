@@ -288,6 +288,10 @@ textarea {
     color: #000;
 }
 
+.contact form input {
+    padding: 10px;
+}
+
 .large-container aside ul {
     padding-left: 20px;
 }
